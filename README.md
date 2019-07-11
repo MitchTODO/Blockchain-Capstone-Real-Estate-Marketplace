@@ -84,17 +84,17 @@ Testing ERC721 token with zkSnarks
 
 1. Make a new project with Infura
 
-  Infura: https://infura.io
+    Infura: https://infura.io
 
 2. Setup truffle-config
 
-  2.1 set infuraKey (line 22)
+    2.1 set infuraKey (line 22)
 
-  2.2 set mnemonic from metamask within HDWalletProvider (line 53)
+    2.2 set mnemonic from metamask within HDWalletProvider (line 53)
 
-  2.3 set rinkeby endpoint within HDWalletProvider (line 53)
+    2.3 set rinkeby endpoint within HDWalletProvider (line 53)
 
-  2.4 set from address (line 57)
+    2.4 set from address (line 57)
 
 3. Migrate to rinkeby
 
