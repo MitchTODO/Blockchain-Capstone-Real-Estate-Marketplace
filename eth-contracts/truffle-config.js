@@ -19,7 +19,7 @@
  */
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const infuraKey = "87f328ce55994991b5d71189e8735473";
+const infuraKey = "<infurakey>";
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -50,11 +50,11 @@ module.exports = {
      rinkeby: {
       provider: function() {
 
-          return new HDWalletProvider("tell pull limb flat luxury size fame tenant myself valve around broken","https://rinkeby.infura.io/v3/690871a407ae49c5a063e138a727917a")
+          return new HDWalletProvider("<metamask mnemonic>","<rinkebyEndpoint>")
         },
 
         network_id: "4",
-        from:"0x92874bEd8D3FE59354336E8b2c36153DFF0A43fC"
+        from:"<metamask address>"
 
       },
 
