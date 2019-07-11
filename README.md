@@ -23,24 +23,10 @@ Completed contract that inherits the ERC721 token backed through zkSnarks that e
 
 Implements Succinct Zero-knowledge proofs (zkSnarks).
 
-## Testing Contracts
-
-### TestERC721Mintable.js
-
-Test minting functionality of tokens and transfer of tokens.
-
-### TestSquareVerifier.js
-
-Verifies zkSnarks is successfully implemented.
-
-### TestSolnSquareVerifier.js
-
-Test minting with zkSnarks.
-
 
 ---
 
-## Quick Start
+## Quick Start Deploying to Ganache and Testing
 
 1. cd into project repro & install modules
 
@@ -51,10 +37,6 @@ Test minting with zkSnarks.
 2. Compile Contracts
 
         truffle compile
-
-
-
-#### Migrate to Ganache
 
 1. Start ganache (CLI or GUI)
 
@@ -68,19 +50,31 @@ Test minting with zkSnarks.
 
 Testing ERC721
 
+File: TestERC721Mintable.js
+
+Test minting functionality of tokens and transfer of tokens.
+
     truffle test ./test/TestERC721Mintable.js
 
 Test zkSnarks
+
+File: TestSquareVerifier.js
+
+Verifies zkSnarks is successfully implemented.
 
     truffle test ./test/TestSquareVerifier.js
 
 Testing ERC721 token with zkSnarks
 
+File: TestSolnSquareVerifier.js
+
+Test minting with zkSnarks.
+
     truffle test ./test/TestSolnSquareVerifier.js
 
 ---
 
-#### Migrate to Rinkeby
+## Quick Start Deploying to Rinkeby
 
 1. Make a new project with Infura
 
