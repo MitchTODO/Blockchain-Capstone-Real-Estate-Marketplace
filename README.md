@@ -44,7 +44,7 @@ Test minting with zkSnarks.
 
 1. cd into project repro & install modules
 
-        cd Blockchain-Capstone
+        cd Blockchain-Capstone-Real-Estate-Marketplace
 
         npm install
 
